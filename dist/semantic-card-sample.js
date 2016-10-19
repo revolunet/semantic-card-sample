@@ -6,7 +6,7 @@
 	else if(typeof exports === 'object')
 		exports["SemanticCardSample"] = factory(require("react"), require("react-dom"));
 	else
-		root["SemanticCardSample"] = factory(root["React"], root["ReactDOM"]);
+		root["SemanticCardSample"] = factory(root["react"], root["react-dom"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_322__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
