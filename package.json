@@ -3,7 +3,7 @@
   "description": "Sample semantic-ui card for ReactJS",
   "author": "Julien Bouquillon",
   "user": "revolunet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "webpack-dev-server",
     "test": "jest --",
@@ -37,6 +37,7 @@
     "babel-register": "^6.16.3",
     "catalog": "^2.4.7",
     "chai": "^3.5.0",
+    "chokidar": "^1.6.1",
     "clean-webpack-plugin": "^0.1.13",
     "css-loader": "^0.25.0",
     "eslint": "^3.8.1",
@@ -73,11 +74,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/survivejs/react-component-boilerplate.git"
+    "url": "https://github.com/revolunet/semantic-card-sample.git"
   },
-  "homepage": "https://survivejs.github.io/react-component-boilerplate/",
+  "homepage": "https://revolunet.github.io/semantic-card-sample/",
   "bugs": {
-    "url": "https://github.com/survivejs/react-component-boilerplate/issues"
+    "url": "https://github.com/revolunet/semantic-card-sample/issues"
   },
   "jest": {
     "collectCoverage": true,
@@ -100,7 +101,6 @@
     "test"
   ],
   "dependencies": {
-    "chokidar": "^1.6.1",
     "get-youtube-id": "^1.0.0",
     "react-youtube": "^7.2.0",
     "semantic-ui-react": "^0.56.7"
