@@ -18,8 +18,8 @@ const config = {
     src: path.join(ROOT_PATH, 'src'),
     docs: path.join(ROOT_PATH, 'docs')
   },
-  filename: 'boilerplate',
-  library: 'Boilerplate'
+  filename: 'semantic-card-sample',
+  library: 'SemanticCardSample'
 };
 
 process.env.BABEL_ENV = TARGET;
@@ -191,6 +191,12 @@ const distCommon = {
       commonjs2: 'react',
       amd: 'React',
       root: 'React'
+    },
+    'react-dom': {
+      commonjs: 'react-dom',
+      commonjs2: 'react-dom',
+      amd: 'ReactDOM',
+      root: 'ReactDOM'
     }
   },
   module: {
