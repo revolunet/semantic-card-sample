@@ -155,6 +155,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	
 	exports.default = SampleCard;
+	
+	module.exports = SampleCard;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
