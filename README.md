@@ -4,7 +4,7 @@ A sample content card using semantic-ui and ReactJS
 
 ## Usage
 
-See demo at [revolunet.github.io/semantic-card-sample/#/demo](http:/:revolunet.github.io/semantic-card-sample/#/demo)
+See demo at [http://revolunet.github.io/semantic-card-sample/#/demo](http:/:revolunet.github.io/semantic-card-sample/#/demo)
 
 ```js
 const data = {
